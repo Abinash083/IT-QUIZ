@@ -4,7 +4,7 @@
 }
 body
 {
-    background-image:url("bg.jpg") ;
+    background-color: aqua ;
     color:rgb(17, 0, 0);
 }
 .topmenu ul
@@ -19,6 +19,7 @@ body
     color:rgb(0, 141, 54);
     cursor: pointer;
     font-size: 25px;
+   
 }
 .topmenu :hover
 {
@@ -30,7 +31,7 @@ body
 }
 .logo img
 {
-    width: 65px;
+    width: 75px;
     margin-top: -12px;
 }
 
@@ -98,3 +99,22 @@ body
    
     
 }
+.fact
+{
+    font-size: 20px;
+    text-align: center;
+}
+.nextbutton {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 250px 750px;
+    cursor: pointer;
+    background-color: #e4be16;
+  }
+  
+  
