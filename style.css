@@ -104,7 +104,7 @@ body
     font-size: 20px;
     text-align: center;
 }
-.nextbutton {
+.button {
     border: none;
     color: white;
     padding: 15px 32px;
@@ -112,9 +112,28 @@ body
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 250px 750px;
     cursor: pointer;
-    background-color: #e4be16;
+   
   }
-  
+  .button1
+  {
+    margin-left: 200px;
+    background-color: #06ff12;
+  }
+  .button2
+  {
+    margin: 350px;
+    background-color: #ffe600;
+  }
+  .Quiz
+  {
+    text-align: center;
+  }
+
+  .Quiz ul li:hover
+  {
+    
+    background-color: #000000; 
+    color: white;
+  } 
   
