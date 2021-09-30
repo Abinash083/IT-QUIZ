@@ -1,0 +1,100 @@
+*{
+    margin:0 ;
+    padding: 0;
+}
+body
+{
+    background-image:url("bg.jpg") ;
+    color:rgb(17, 0, 0);
+}
+.topmenu ul
+{
+    display: inline-flex;
+    margin: 50px;
+}
+.topmenu ul li
+{
+    list-style: none;
+    margin: 25px;
+    color:rgb(0, 141, 54);
+    cursor: pointer;
+    font-size: 25px;
+}
+.topmenu :hover
+{
+    
+    
+    color:rgb(1, 63, 25);
+    cursor: pointer;
+    font-size: 27px;
+}
+.logo img
+{
+    width: 65px;
+    margin-top: -12px;
+}
+
+.dbody
+{
+    width: 75%;
+    height:65%;
+    top:20%;
+    left: 100px;
+    position :absolute;
+}
+.discription
+{
+    width: 50%;
+    float: left;
+
+}
+.discription h1
+{
+    position:relative;
+    margin-left:25px;  
+}
+.discription p
+{
+    font-size: 15px; 
+    margin:20px 0 20px 30px;
+    line-height: 20px;
+    color:black;
+    
+}
+.dimage
+{
+    width :50%;
+    float:right;
+    
+
+}
+
+
+.Info 
+{
+    cursor: pointer;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 5px;
+    border-image: linear-gradient(45deg, rgb(128, 19, 0), rgb(23, 6, 255),green) 1;
+    text-align: center;
+}
+.Info :hover
+{
+    font-size: 20px;
+}
+.Info img
+{
+    width: 20px;
+    margin: auto 10px;
+    padding-top: 5px;
+   
+    
+}
+.Info b 
+{
+    margin-top: -10;
+    padding-top: -15px;
+   
+    
+}
