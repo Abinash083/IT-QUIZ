@@ -5,6 +5,7 @@
 <link rel="stylesheet"href ="style.css">
 </head>
 <body>
+    <script src = "answer.js"> </script>
     <div class="topmenu">
         <ul>
             <li class ="logo"> <img src="menulogo.jpg"></li>
@@ -16,19 +17,27 @@
         </ul>
     </div>
 <div class= "Quiz">
-    <!-- later questions will be displayed using javascript -->
-    What was the first computer that had a colour display?
+   <p id="question"></p>
     <ul>
-       <li>imac</li>
-       <li>apple II</li>
-       <li>BBC Micro</li>
-       <li>Amiga 500</li>
+       <li id = "opt1"></li>
+       <li id ="opt2"></li>
+       <li id ="opt3"></li>
+       <li id ="opt4"></li>
     </ul>
 
 </div>
+<p id="answer">******</p>
 
-<button class="button button1" >Answer</button>
+<button class="button button1" onclick= "Answer1(quiz1)">Answer</button>
 <button class="button button2" >next</button>
 
 </body>
+<script>
+
+    document.getElementById("question").innerHTML =quiz1.question;
+    document.getElementById("opt1").innerHTML =quiz1.option1;
+    document.getElementById("opt2").innerHTML =quiz1.option2;
+    document.getElementById("opt3").innerHTML =quiz1.option3;
+    document.getElementById("opt4").innerHTML =quiz1.option4;
+</script>
 </html>
