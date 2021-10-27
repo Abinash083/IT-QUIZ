@@ -23,10 +23,11 @@ async function getText(file)
         document.getElementById("5").innerHTML = myArr[i];
         if (i>=myArr.length)
         {   
-            removenextbutton();
+            removenextbutton("nextbutton");
             document.getElementById("5").innerHTML = "last one"; 
             let btn = document.createElement("button");
             btn.innerHTML = "Start from first";
+            btn.id="startbutton";
             btn.onclick = function () 
             { 
                 moreactions(); 
@@ -52,9 +53,9 @@ function createnextbutton()
 
 }
    
-function removenextbutton()
+function removenextbutton(id)
 {
-    var bton = document.getElementById('nextbutton');
+    var bton = document.getElementById(id);
     bton.parentNode.removeChild(bton);
 }
 
@@ -64,7 +65,8 @@ function moreactions() {
     i = 0;
     createnextbutton();
     getText("checktxt.txt");
-    removenextbutton();
+    removenextbutton("startbutton");
+    
 }
 
 /*
