@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>home</title>
-<link rel="stylesheet"href ="style.css">
-</head>
-<body>
+    <title>home</title>
+    <link rel="stylesheet"href ="style.css">
     <script src = "answer.js"> </script>
+</head>
+<body  onload="display(a)">
+    
     <div class="topmenu">
         <ul>
             <li class ="logo"> <img src="menulogo.jpg"></li>
@@ -26,18 +27,11 @@
     </ul>
 
 </div>
-<p id="answer">******</p>
+<p id="answer"></p>
 
-<button class="button button1" onclick= "Answer1(quiz1)">Answer</button>
+<button class="button button1" onclick= "Answer1(running)">Answer</button>
 <button class="button button2" >next</button>
 
 </body>
-<script>
 
-    document.getElementById("question").innerHTML =quiz1.question;
-    document.getElementById("opt1").innerHTML =quiz1.option1;
-    document.getElementById("opt2").innerHTML =quiz1.option2;
-    document.getElementById("opt3").innerHTML =quiz1.option3;
-    document.getElementById("opt4").innerHTML =quiz1.option4;
-</script>
 </html>
