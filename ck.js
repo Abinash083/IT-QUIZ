@@ -21,8 +21,13 @@ async function getText(file)
         facts =B;
         const myArr = facts.split(".");
         document.getElementById("5").innerHTML = myArr[i];
-        if (i>=myArr.length)
+        if (i<myArr.length-1)
         {   
+           return;
+
+        }
+        else
+        {
             removenextbutton("nextbutton");
             document.getElementById("5").innerHTML = "last one"; 
             let btn = document.createElement("button");
@@ -44,6 +49,7 @@ function createnextbutton()
     let bton = document.createElement("button");
     bton.innerHTML = "Next";
     bton.id="nextbutton";
+    bton.className="button";
     bton.onclick = function () 
     {
         i+=1;
@@ -76,4 +82,5 @@ function moreactions() {
         })
         .then(function (data) {
             return data;
-        });*/
+        });
+*/
