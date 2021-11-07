@@ -2,4 +2,4 @@ https://stackoverflow.com/questions/5933157/how-to-remove-an-html-element-using-
 https://www.w3schools.com/js/tryit.asp?filename=tryjs_api_fetch_await
 https://www.youtube.com/watch?v=y17RuWkWdn8
 
-Note:-need to use "live server" vscode extention
+Note:-Need to use "live server" vscode extention
