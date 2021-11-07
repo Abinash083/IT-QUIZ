@@ -33,6 +33,7 @@ async function getText(file)
             let btn = document.createElement("button");
             btn.innerHTML = "Start from first";
             btn.id="startbutton";
+            btn.className="button";
             btn.onclick = function () 
             { 
                 moreactions(); 
